@@ -1,0 +1,18 @@
+.form-input-alignment {
+    margin-left: 20px;
+}
+
+.div-container {
+    text-align: center;
+    border: 5px solid white; 
+}
+
+.transaction-logs-container {
+    border: 5px solid white; 
+    border-radius: 5px; 
+}
+
+.div-body-container {
+    margin-top: 20px;
+
+}

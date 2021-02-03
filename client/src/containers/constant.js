@@ -1,0 +1,14 @@
+export const NULL = ""
+export const ZERO = 0
+export const TRANSACTION_STATUS_SUCCESS = "SUCCESSFUL" 
+export const TRANSACTION_STATUS_PENDING = "PENDING"    
+export const THREE_DOT = ". . ."
+export const FIRST_CHARACTERS = 14
+export const LAST_CHARACTER = 10
+export const ENUM_STATUS_SUCCESS = 2
+export const ID = "#"
+export const ADDRESS = "PAYMENT ADDRESS"
+export const HASH = "TRANSACTION ID"
+export const CREATED_DATE = "CREATED AT"
+export const STATUS_TRANSACTION = "STATUS"
+export const NOTIFICATION_NO_TRANSACTION = "No Transactions"

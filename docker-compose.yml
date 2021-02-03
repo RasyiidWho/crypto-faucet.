@@ -1,0 +1,43 @@
+version: '3'
+services:
+  react:
+    container_name: client
+    build: client
+    restart: on-failure
+    ports: 
+      - "3000:3000"
+  app:
+    container_name: faucet
+    build: faucet
+    ports: 
+      - 8085:8085 
+    restart: on-failure
+    volumes:
+      - .:/usr/src/app
+    depends_on:
+      - faucet-mysql # This service depends on postgres. Start that first.
+      # - forum-mysql # This service depends on mysql. Start that first.
+    environment:
+      - DOMAIN_NAME=chodapi.com
+
+  faucet-mysql:
+    image: mysql
+    container_name: faucet-mysql
+    restart: always
+    ports: 
+      - 3306:3306
+    environment: 
+      - MYSQL_ROOT_HOST=faucet-mysql
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=12345
+      - MYSQL_DATABASE=transaction
+      - MYSQL_ROOT_PASSWORD=12345
+    volumes:
+      - ./db/pgdata:/pgdata
+    
+  
+volumes:
+  api:
+  database_mysql:
+
+
