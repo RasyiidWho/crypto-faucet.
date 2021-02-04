@@ -15,9 +15,9 @@ export const SIZE_FRAME = 200
 export const THRESHOLD_NUMBER_OF_TRANSACTION = 1 
 export const TOTAL_CURRENT_TRANSACTION_LOGS = 10
 export const INPUT_CONTENT = "Scan your QR Code" 
-export const NOTIFICATION_USER_ENTER_OTHER_ADDRESS = "Reload page and and scan your QR code again after an hour"
+export const NOTIFICATION_USER_ENTER_OTHER_ADDRESS = "Try again after 1 hour"
 export const NOTIFICATION_USER_FULL_SLOTS = "Our queue is full now"
-export const NOTIFICATION_USER_ENTER_VALID_ADDRESS = "Reload page and scan your address QR code in your Incognito Wallet"
+export const NOTIFICATION_USER_ENTER_VALID_ADDRESS = "Try to scan your address QR code in your Incognito Wallet"
 export const SEND_REQUEST_BUTTON = "Send me 30 PRV"
 export const DESCRIPTION = ` This faucet drips 30 PRV 10 times per hour.  
                            You can receive it by scanning your address QR code in your Incognito Wallet. 
