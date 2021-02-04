@@ -8,7 +8,11 @@ Incognito Faucet - A fullstack Go + ReactJS + Nginx  App deployed with Docker
 * Docker
 * Docker-compose
 ### Installation
-% // Clone that repo to your computer
+* Clone this repository
+  ```
+    git clone https://github.com/hoangnguyen-1312/crypto-faucet..git <project-name>
+    cd <project-name>
+  ```
 % git clone https://github.com/hoangnguyen-1312/crypto-faucet..git
 ### Quick Start
 1) `sudo docker-compose up --build`
