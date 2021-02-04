@@ -1,5 +1,5 @@
 # Crypto Faucet
-Incognito Faucet - A fullstack Go + ReactJS + Nginx  App deployed with Docker
+Incognito Faucet - A fullstack Go + ReactJS App deployed with Docker using Nginx as a reverse proxy.
 
 ## What did I do ?
 - Built a simple Golang + ReactJS web application running on docker compose. The application uses the Gin framework and stores documents in MySQL.
