@@ -3,7 +3,6 @@ Incognito Faucet - A fullstack Go + ReactJS + Nginx  App deployed with Docker
 
 ## What did I do ?
 - Built a simple Golang + ReactJS web application running on docker compose. The application uses the Gin framework and stores documents in MySQL.
-### Technologies used
 
 ### Pre-installation
 * Git
@@ -23,5 +22,7 @@ Incognito Faucet - A fullstack Go + ReactJS + Nginx  App deployed with Docker
 
 ### Preview of the app
 ![Screenshot of the app](docs/demo.png?raw=true "Screenshot")
-### Description
 
+### Description
+- Crypto faucet - a really easy way to earn crypto for free
+- This web application was developed to give a reward of 30 PRV - a native coin of Incognito - for users who own Incognito Wallet.  
